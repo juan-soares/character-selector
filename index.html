@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" src="./src/css/reset.css" >
+    <link rel="stylesheet" type="text/css" src="./src/css/estilos.css" >
     <title>Seletor de Personagens</title>
   </head>
   <body>
-    <header class="cabecalho"></header>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
   <main class="selecao-de-personagens">
     <section class="personagens">
       <h1 class="titulo">Selecione um personagem</h1>
       
       <ul class="lista-de-personagens">
-        <li class="personagem" id="ciclope">
+        <li class="personagem selecionado" id="ciclope">
           <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
         </li>
         <li class="personagem" id="jean-grey">
