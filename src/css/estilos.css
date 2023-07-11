@@ -46,13 +46,17 @@ body::before {
   gap: 25px;
 }
 
-.selecao-de-personagens .personagem .titulo {
+.selecao-de-personagens .personagens .titulo {
   width: 100%;
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 2px solid #47f4ff;
+}
+
+.lista-de-personagens .personagem {
+  border-bottom: 4px solid #47f4ff;
 }
 
 .lista-de-personagens .personagem img {
